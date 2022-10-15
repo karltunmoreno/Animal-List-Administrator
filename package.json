@@ -1,0 +1,24 @@
+{
+  "name": "animal-list-administrator",
+  "version": "1.0.0",
+  "description": "User Stories",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karltunmoreno/Animal-List-Administrator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karltunmoreno/Animal-List-Administrator/issues"
+  },
+  "homepage": "https://github.com/karltunmoreno/Animal-List-Administrator#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
