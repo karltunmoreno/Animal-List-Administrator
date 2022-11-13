@@ -7,7 +7,7 @@ ________________________________________________________________________________
 #ABOUT
 
 As a zooker manager i want an application to help me orgaize animals, what they eat, and how they behave. In addition, I also added an option to add new zoo keeper emplyees by name, age, a fovorite animal.
-
+Node.js has built-in capabilities to create APIs, but Express.js makes it much easier to do so. It is also currently the industry standard, which makes it a very marketable technology to know. Let's use our well-honed research skills to learn how to use it by referring to its documentation.
 __________________________________________________________________________________________________________________________________________________________________
 
 
