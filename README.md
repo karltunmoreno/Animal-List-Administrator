@@ -8,6 +8,8 @@ ________________________________________________________________________________
 
 As a zooker manager i want an application to help me orgaize animals, what they eat, and how they behave. In addition, I also added an option to add new zoo keeper emplyees by name, age, a fovorite animal.
 Node.js has built-in capabilities to create APIs, but Express.js makes it much easier to do so. It is also currently the industry standard, which makes it a very marketable technology to know. Let's use our well-honed research skills to learn how to use it by referring to its documentation.
+
+created a web server using the Express.js framework and added it to a front-end application that the local zoo is developing, called Animal List Administrator. The site’s data will live on the server build so that anyone can access it without having to download it. Also deployed application to Heroku, a cloud application platform that allows you to deploy applications with servers to a webpage.
 __________________________________________________________________________________________________________________________________________________________________
 
 
