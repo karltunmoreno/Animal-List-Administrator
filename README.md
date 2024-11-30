@@ -1,8 +1,21 @@
 # Animal-List-Administrator
 
+ZOO KEEPER APPLICATION MODEL
 
 
-User Stories
+https://afternoon-caverns-57263.herokuapp.com/
+___________________________________________________________________________________________________________________________________________________________________
+
+#ABOUT
+
+As a zooker manager i want an application to help me orgaize animals, what they eat, and how they behave. In addition, I also added an option to add new zoo keeper emplyees by name, age, a fovorite animal.
+Node.js has built-in capabilities to create APIs, but Express.js makes it much easier to do so. It is also currently the industry standard, which makes it a very marketable technology to know. Let's use our well-honed research skills to learn how to use it by referring to its documentation.
+
+created a web server using the Express.js framework and added it to a front-end application that the local zoo is developing, called Animal List Administrator. The site’s data will live on the server build so that anyone can access it without having to download it. Also deployed application to Heroku, a cloud application platform that allows you to deploy applications with servers to a webpage.
+__________________________________________________________________________________________________________________________________________________________________
+
+
+###User Stories
 
 - As a user, I can request for a list of all animal data
 
@@ -19,3 +32,38 @@ User Stories
 - As a user, I want to create new data by submitting an HTML form
 
 - As a user, I want to be able to access and create different types of data stored on the server
+
+_________________________________________________________________________________________________________________________________________________________________
+
+![Ss](https://karltunmoreno.github.io/My-Portfolio/assets/images/ANIMALPICSLIDE.jpg)
+___________________________________________________________________________________________________________________________________________________________________
+
+
+##LINK:
+
+https://afternoon-caverns-57263.herokuapp.com/
+
+___________________________________________________________________________________________________________________________________________________________________
+## Technologies In use :
+  
+  #### Front-end:
+ 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&color=d1b01f)  
+
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge)
+	
+
+  
+
+
+
+#### Back-end:
+ ![Node.js ](https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white&style=for-the-badge)
+  ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB&style=for-the-badge)
+
+![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=ffffff)
+  
