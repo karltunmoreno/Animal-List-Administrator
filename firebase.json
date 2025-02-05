@@ -1,7 +1,12 @@
 {
   "hosting": {
+    "site": "animal-list-administrator-5c457",
     "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
- 
