@@ -1,198 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Karltun Zoo Keeper</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:400,400i,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/11.2.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/11.2.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/11.2.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
   </head>
-
   <body>
-    <header class="py-3 mb-3">
-      <div
-        class="flex-row justify-space-between align-center container-fluid mx-auto"
-      >
-        <h1 class="text-light bg-dark p-3">Animal List Administrator</h1>
-        <h3 class="text-light bg-dark p-3">A Zoo Animal Catalog</h3>
-      </div>
-      <div class="container-fluid mx-auto">
-        <section class="p-3 my-4 bg-dark">
-          <h2 class="text-light">Portal to the Animal World.</h2>
-          <p>
-            Dive inside this wild animal application that uses the backend CRUD
-            functions inside the Restful API interface architecture that
-            transmits request and responses between client and server end
-            points. We use REST Methods to validate and test query routes with
-            Insomnia software. There we can POST, PUT/PATCH, DELETE data to
-            database to test to see if it works during the development phase.
-            Now that everything works successfully by using Express routes and
-            the help of the run-time Node server, (Node.js) supported by the
-            Javascript external server machine. Here, we can organize and view
-            our animal catalog. We can also organize by categorizing animals to
-            their species class. Assign the foods that these animals eat in
-            their daily diet. Also, we can add new animals to the list with
-            their unique personality types. With consideration, the function to
-            add a new Zoo Keeper name and age, and favorite animal preference
-            was a real utility. A warm, happy, fuzzy application, Indeed!
-          </p>
-        </section>
-      </div>
-    </header>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    </div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <main class="container-fluid mx-auto">
-      <section class="p-3 mb-3 bg-dark flex-row align-center">
-        <h2 class="text-light col-12 col-lg-5">Add To Our Catalog.</h2>
-        <div
-          class="col-12 col-lg-7 flex-row text-center justify-space-around align-center"
-        >
-          <a class="btn col-12 col-md-auto mx-2" href="/animals"
-            >View Animals</a
-          >
-          <a class="btn col-12 col-md-auto mx-2" href="/zookeepers"
-            >View Zookeepers</a
-          >
-        </div>
-      </section>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-      <section class="my-4 flex-row justify-space-between">
-        <div class="col-12 col-lg-6 bg-dark p-3 mb-3">
-          <h3 class="text-light">Enter an Animal</h3>
-          <form id="animal-form">
-            <label for="animal-name" class="form-label">Animal Name</label>
-            <input
-              type="text"
-              id="animal-name"
-              name="animal-name"
-              class="form-input"
-              placeholder="Enter Name"
-            />
-
-            <label for="species-input" class="form-label">Species</label>
-            <input
-              type="text"
-              id="species-input"
-              name="species"
-              class="form-input"
-              placeholder="Enter Species"
-            />
-
-            <label for="diet-input" class="form-label">Diet</label>
-            <div class="flex-row justify-center">
-              <div class="col-auto mb-2">
-                <input
-                  type="radio"
-                  id="herbivore-input"
-                  name="diet"
-                  value="herbivore"
-                  checked
-                />
-                <label for="herbivore-input">Herbivore</label>
-              </div>
-              <div class="col-auto mb-2">
-                <input
-                  type="radio"
-                  id="folivore-input"
-                  name="diet"
-                  value="folivore"
-                />
-                <label for="folivore-input">Folivore</label>
-              </div>
-              <div class="col-auto mb-2">
-                <input
-                  type="radio"
-                  id="carnivore-input"
-                  name="diet"
-                  value="carnivore"
-                />
-                <label for="carnivore-input">Carnivore</label>
-              </div>
-              <div class="col-auto mb-2">
-                <input
-                  type="radio"
-                  id="omnivore-input"
-                  name="diet"
-                  value="omnivore"
-                />
-                <label for="omnivore-input">Omnivore</label>
-              </div>
-              <div class="col-auto mb-2">
-                <input
-                  type="radio"
-                  id="piscivore-input"
-                  name="diet"
-                  value="piscivore"
-                />
-                <label for="piscivore-input">Piscivore</label>
-              </div>
-            </div>
-
-            <label for="personality-input" class="form-label"
-              >Personality Traits (pick all that apply)</label
-            >
-            <small>On macOS, use <kbd>command + click</kbd></small> <br />
-            <small>On Windows, use <kdb>ctrl + click</kdb></small>
-            <select
-              multiple
-              id="personality-input"
-              class="form-input"
-              name="personality"
-            >
-              <option value="hungry">Hungry</option>
-              <option value="zany">Zany</option>
-              <option value="anxious">Anxious</option>
-              <option value="loving">Loving</option>
-              <option value="goofy">Goofy</option>
-            </select>
-
-            <button class="btn">Add Animal</button>
-          </form>
-        </div>
-
-        <div class="col-12 col-lg-6 bg-dark p-3 mb-3">
-          <h3 class="text-light">Enter a Zookeeper</h3>
-          <form id="zookeeper-form">
-            <label for="zookeeper-name" class="form-label"
-              >Zookeeper Name</label
-            >
-            <input
-              type="text"
-              id="zookeeper-name"
-              class="form-input input"
-              placeholder="Enter Name"
-              name="zookeeper-name"
-            />
-
-            <label for="age-input" class="form-label input">Age</label>
-            <input
-              type="number"
-              id="age-input"
-              class="form-input"
-              placeholder="Enter Age"
-              name="age"
-            />
-
-            <label for="favorite-animal" class="form-label"
-              >Favorite Animal</label
-            >
-            <input
-              type="text"
-              class="form-input input"
-              id="favorite-animal"
-              placeholder="Enter Favorite Animal"
-              name="favorite-animal"
-            />
-
-            <button class="btn">Add Zookeeper</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <script src="./assets/js/script.js"></script>
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
   </body>
 </html>
