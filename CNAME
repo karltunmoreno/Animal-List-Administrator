@@ -1,1 +1,4 @@
-https://animal-list-administrator-5c457.web.app
+Type: CNAME
+Name: animal-list-administrator-5c457.web.app
+Value: karltunmoreno.github.io
+TTL: Default (or 3600)
