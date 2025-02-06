@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "animal-list-administrator-5c457",
+    "site": "https://animal-list-administrator-5c457.web.app",
     "public": "public",
     "rewrites": [
       {
