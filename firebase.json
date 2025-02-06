@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "https://animal-list-administrator-5c457.web.app",
     "public": "public",
     "rewrites": [
       {
@@ -8,5 +7,18 @@
         "destination": "/index.html"
       }
     ]
-  }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
 }
