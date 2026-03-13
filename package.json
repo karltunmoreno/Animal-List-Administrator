@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/karltunmoreno/Animal-List-Administrator#readme",
   "dependencies": {
-    "express": "^4.21.2",
-    "firebase": "^11.2.0"
+    "express": "^4.22.1"
   }
 }
